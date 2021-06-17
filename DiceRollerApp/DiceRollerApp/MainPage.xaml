@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiceRollerApp.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Label Text="Dice Roller" HorizontalOptions="Center" FontSize="Body"/>
+
+        <Image x:Name="image" WidthRequest="300" HeightRequest="300" />
+
+        <Label x:Name="number" Text="" HorizontalOptions="Center" FontSize="Body"/>
+
+        <Button Text="Roll" Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
